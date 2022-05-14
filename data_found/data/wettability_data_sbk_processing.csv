@@ -1,0 +1,69 @@
+,Category,subcategory,material,coating,test liquid,Arrangement,Basic Geometry,texture height (mm),center-to-center distance (mm),texture width (mm),lip depth (mm),lip thickness (mm),receding angle
+0,non-textured,flat,silica,none,water,None,None,0,0,0,0,0,0
+1,non-textured,rough,silica,glaco (pefluorinated silica NPs ~ 50nm),water,None,None,0,0,0,0,0,151
+2,textured,pillars,SiO2,none,water,hexagonal,circle,50,50,10,0,0,0
+3,textured,pillars,SiO2,none,water,hexagonal,circle,50,50,10,2,0.5,146
+4,textured,cavities,SiO2,plasma treatment,water,hexagonal,circle,53,212,200,0,0,0
+5,textured,cavities,SiO2,plasma treatment,water,hexagonal,circle,53,212,200,2,0.5,0
+6,textured,cavities,SiO2,piranha-cleaned and storage,water,hexagonal,circle,53,212,200,0,0,0
+7,textured,cavities,SiO2,piranha-cleaned and storage,water,hexagonal,circle,53,212,200,2,0.5,0
+8,textured,cavities,SiO2,perfluorodecyltrichlorosilane (FDTS),water,hexagonal,circle,53,212,200,0,0,100
+9,textured,cavities,SiO2,perfluorodecyltrichlorosilane (FDTS),water,hexagonal,circle,53,212,200,2,0.5,100
+10,non-textured,flat,IPS,none,water,None,None,0,0,0,0,0,27
+11,non-textured,flat,IPS,none,hexadecane,None,None,0,0,0,0,0,0
+12,non-textured,flat,IPS,none,isopropanol,None,None,0,0,0,0,0,0
+13,textured,reentrant-pillars,IPS,none,water,square,circle,90,100,20,2.5,0.5,172
+14,textured,reentrant-pillars,IPS,none,hexadecane,square,circle,90,100,20,2.5,0.5,168
+15,textured,reentrant-pillars,IPS,none,isopropanol,square,circle,90,100,20,2.5,0.5,164
+16,non-textured,flat,IPS,perfluorodecyltrichlorosilane (FDTS),water,None,None,0,0,0,0,0,47
+17,non-textured,flat,IPS,perfluorodecyltrichlorosilane (FDTS),hexadecane,None,None,0,0,0,0,0,25
+18,non-textured,flat,IPS,perfluorodecyltrichlorosilane (FDTS),isopropanol,None,None,0,0,0,0,0,0
+19,textured,reentrant-pillars,silicon wafers,piranha-cleaned and storage,water,square,circle,30,100,20,2.5,0.5,139
+20,textured,reentrant-pillars,silicon wafers,piranha-cleaned and storage,hexadecane,square,circle,30,100,20,2.5,0.5,132
+21,textured,reentrant-cavities,silicon wafers,piranha-cleaned and storage,water,square,circle,60,212,200,5,0.5,139
+22,textured,reentrant-cavities,silicon wafers,piranha-cleaned and storage,hexadecane,square,circle,60,212,200,5,0.5,134
+23,textured,rough-donuts,PDMS,none,water,hexagonal,circle,20,160,140,0,0,120
+24,non-textured,flat,PDMS,none,water,None,None,0,0,0,0,0,103
+25,non-textured,flat,silicon wafers,Octyltriethoxy,water,None,None,0,0,0,0,0,50
+26,non-textured,flat,silicon wafers,Octadecyl,water,None,None,0,0,0,0,0,102
+27,non-textured,flat,silicon wafers,Phenyl,water,None,None,0,0,0,0,0,73
+28,non-textured,flat,silicon wafers,Phenethyl,water,None,None,0,0,0,0,0,59
+29,non-textured,flat,silicon wafers,10-Undecenyl,water,None,None,0,0,0,0,0,50
+30,non-textured,flat,silicon wafers,11-Bromoundecyl,water,None,None,0,0,0,0,0,58
+31,non-textured,rough,"cis-1,4-polyisoprene tape",PDMS oligomer,water,None,None,0,0,0,0,0,150
+32,non-textured,rough,"cis-1,4-polyisoprene tape?",PDMS oligomer,hexadecane,None,None,0,0,0,0,0,150
+33,non-textured,rough,OTFE,none,water,None,None,0,0,0,0,0,180
+34,non-textured,rough,CNTs forrest,PTFE,water,None,None,0,0,0,0,0,160
+35,non-textured,rough,spincoat-fluoroPOSS-PMMA,none,water,None,None,0,0,0,0,0,124.5
+36,non-textured,rough-strings,electrospun-fruoroPOSS-PMMA,none,water,None,None,0,0,0,0,0,150
+37,textured,reentrant-pillars,SiO2,perfluorodecyltrichlorosilane (FDTS),octane,square,circle,7,24,20,0,0,145
+38,textured,reentrant-pillars,SiO2,none,water,square,circle,7,13.6,20,0,0,104
+39,non-textured,flat,SiO2,perfluorodecyltrichlorosilane (FDTS),octane,None,None,0,0,0,0,0,50
+40,non-textured,flat,silicon wafers,OTS,BMIm,None,None,0,0,0,0,0,60.8
+41,non-textured,flat,silicon wafers,OTS,water,None,None,0,0,0,0,0,95.8
+42,non-textured,flat,silicon wafers,none,BMIm,None,None,0,0,0,0,0,9.8
+43,non-textured,flat,silicon wafers,none,water,None,None,0,0,0,0,0,0
+44,non-textured,flat,silicon wafers,none,silicone oil,None,None,0,0,0,0,0,0
+45,non-textured,flat,silicon wafers,OTS,silicone oil,None,None,0,0,0,0,0,0
+46,non-textured,flat,epoxy,tetrahydrodecyltrichlorosilane,water,None,None,0,0,0,0,0,90.8
+47,non-textured,flat,epoxy,tetrahydrodecyltrichlorosilane,hexadecane,None,None,0,0,0,0,0,50
+48,non-textured,flat,epoxy,tetrahydrodecyltrichlorosilane,perhydrophenalene,None,None,0,0,0,0,0,48.1
+49,non-textured,flat,epoxy,tetrahydrodecyltrichlorosilane,decane,None,None,0,0,0,0,0,38.5
+50,non-textured,flat,epoxy,tetrahydrodecyltrichlorosilane,octane,None,None,0,0,0,0,0,23.8
+51,non-textured,flat,epoxy,tetrahydrodecyltrichlorosilane,hexane,None,None,0,0,0,0,0,22.8
+52,non-textured,flat,epoxy,tetrahydrodecyltrichlorosilane,pentane,None,None,0,0,0,0,0,17
+53,non-textured,flat,epoxy,tetrahydrodecyltrichlorosilane,FC-70,None,None,0,0,0,0,0,0
+54,non-textured,flat,epoxy,none,water,None,None,0,0,0,0,0,67
+55,non-textured,flat,epoxy,none,hexadecane,None,None,0,0,0,0,0,25.7
+56,non-textured,flat,epoxy,none,perhydrophenalene,None,None,0,0,0,0,0,25.4
+57,non-textured,flat,epoxy,none,decane,None,None,0,0,0,0,0,13.7
+58,non-textured,flat,epoxy,none,octane,None,None,0,0,0,0,0,6.1
+59,non-textured,flat,epoxy,none,hexane,None,None,0,0,0,0,0,0
+60,non-textured,flat,epoxy,none,pentane,None,None,0,0,0,0,0,0
+61,non-textured,flat,epoxy,none,FC-70,None,None,0,0,0,0,0,26.7
+62,non-textured,flat,silicon wafers,none,water,None,None,0,0,0,0,0,0
+63,non-textured,flat,silicon wafers,none,hexadecane,None,None,0,0,0,0,0,0
+64,non-textured,flat,silicon wafers,none,decane,None,None,0,0,0,0,0,0
+65,non-textured,flat,silicon wafers,none,octane,None,None,0,0,0,0,0,0
+66,non-textured,flat,silicon wafers,none,hexane,None,None,0,0,0,0,0,0
+67,non-textured,flat,silicon wafers,none,pentane,None,None,0,0,0,0,0,0
