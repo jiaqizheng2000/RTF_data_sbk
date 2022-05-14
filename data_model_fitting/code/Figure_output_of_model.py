@@ -104,7 +104,7 @@ if __name__=="__main__":
     # get a tree in model
     tree = ran.estimators_[5]
     # output as dot 文件
-    export_graphviz(tree, out_file=os.path.join(Base_path,result_path,'tree.dot'), feature_names=feature_list, rounded=True, precision=1)
+    export_graphviz(tree, out_file=os.path.join(Base_path, result_path, '../result/tree.dot'), feature_names=feature_list, rounded=True, precision=1)
 
     #Calculate the importance of variables
     plt.figure(3)
