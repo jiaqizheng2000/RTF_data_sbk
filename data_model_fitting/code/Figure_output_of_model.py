@@ -56,6 +56,8 @@ if __name__=="__main__":
     vif["Features"] = x.columns
 
     corrl = df.corr() # plot heat map
+    cor=pd.DataFrame(data=corrl)
+    cor.to_csv(os.path.join(Base_path,result_path,'correlation.csv'))
     plt.figure(figsize=(20, 20))
     sns.heatmap(corrl, cbar=True, square=True, fmt='.1f', annot=True, annot_kws={'size': 12}, cmap='twilight_shifted_r')
     plt.savefig(os.path.join(Base_path,result_path,'heat_map.jpg'))
