@@ -19,9 +19,9 @@ pd.set_option('display.width',1000)
 numbers_estimators = 300
 max_depth_for_RAN = 30
 
-Base_path='D:\RTF_data_sbk'
+Base_path='D:\Data_sbk_fitting'
 Data_path='data_found\\data'
-result_path='data_model_fitting\\result'
+result_path='RTF_model_fitting\\result'
 
 if __name__=="__main__":
     data_path=os.path.join(Base_path,Data_path,'wettability_data_sbk_processed.csv')
