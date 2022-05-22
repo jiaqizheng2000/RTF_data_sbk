@@ -45,7 +45,7 @@ if __name__=="__main__":
         plotnumber += 1
     plt.tight_layout()
     # plt.savefig(os.path.join(Base_path,result_path,'scattter_pots.jpg'))
-    # plt.show()
+    plt.show()
 
     scalar = StandardScaler()
     x_scaled = scalar.fit_transform(x)
@@ -61,7 +61,7 @@ if __name__=="__main__":
     plt.figure(figsize=(20, 20))
     sns.heatmap(corrl, cbar=True, square=True, fmt='.1f', annot=True, annot_kws={'size': 12}, cmap='twilight_shifted_r')
     # plt.savefig(os.path.join(Base_path,result_path,'heat_map.jpg'))
-    # plt.show()
+    plt.show()
 
     #Splitting the dataset for train and test
     # x_train, x_test, y_train, y_test = train_test_split(x_scaled, y, test_size=0.10, random_state=470)
@@ -101,7 +101,7 @@ if __name__=="__main__":
     plt.xlabel('Expremental receding angle', fontsize=20)
     plt.ylabel('Predicted receding angle', fontsize=20)
     # plt.savefig(os.path.join(Base_path,result_path,'Liner_regression.jpg'))
-    # plt.show()
+    plt.show()
 
     # get a tree in model
     tree = ran.estimators_[5]
@@ -136,7 +136,7 @@ if __name__=="__main__":
     plt.title('Variable Importances')
     plt.tight_layout()
     # plt.savefig(os.path.join(Base_path,result_path,'Importance.jpg'))
-    # plt.show()
+    plt.show()
 
 
 
