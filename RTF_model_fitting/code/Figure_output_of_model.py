@@ -44,8 +44,8 @@ if __name__=="__main__":
             plt.ylabel('Wetting angle', fontsize=20)
         plotnumber += 1
     plt.tight_layout()
-    plt.savefig(os.path.join(Base_path,result_path,'scattter_pots.jpg'))
-    plt.show()
+    # plt.savefig(os.path.join(Base_path,result_path,'scattter_pots.jpg'))
+    # plt.show()
 
     scalar = StandardScaler()
     x_scaled = scalar.fit_transform(x)
@@ -60,12 +60,12 @@ if __name__=="__main__":
     cor.to_csv(os.path.join(Base_path,result_path,'correlation.csv'))
     plt.figure(figsize=(20, 20))
     sns.heatmap(corrl, cbar=True, square=True, fmt='.1f', annot=True, annot_kws={'size': 12}, cmap='twilight_shifted_r')
-    plt.savefig(os.path.join(Base_path,result_path,'heat_map.jpg'))
-    plt.show()
+    # plt.savefig(os.path.join(Base_path,result_path,'heat_map.jpg'))
+    # plt.show()
 
     #Splitting the dataset for train and test
     # x_train, x_test, y_train, y_test = train_test_split(x_scaled, y, test_size=0.10, random_state=470)
-    x_train, x_test, y_train, y_test = train_test_split(x_scaled, y, test_size=0.20, random_state=470)
+    x_train, x_test, y_train, y_test = train_test_split(x_scaled, y, test_size=0.20, random_state=10)
     train_X_column_name = list(x.columns)
 
     #Importing the models for training the dataset
@@ -100,8 +100,8 @@ if __name__=="__main__":
     plt.plot(y_test,pred_y,c = 'red')
     plt.xlabel('Expremental receding angle', fontsize=20)
     plt.ylabel('Predicted receding angle', fontsize=20)
-    plt.savefig(os.path.join(Base_path,result_path,'Liner_regression.jpg'))
-    plt.show()
+    # plt.savefig(os.path.join(Base_path,result_path,'Liner_regression.jpg'))
+    # plt.show()
 
     # get a tree in model
     tree = ran.estimators_[5]
@@ -135,8 +135,8 @@ if __name__=="__main__":
     plt.ylabel('Importance')
     plt.title('Variable Importances')
     plt.tight_layout()
-    plt.savefig(os.path.join(Base_path,result_path,'Importance.jpg'))
-    plt.show()
+    # plt.savefig(os.path.join(Base_path,result_path,'Importance.jpg'))
+    # plt.show()
 
 
 
